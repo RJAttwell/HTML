@@ -1,1 +1,29 @@
+/* Do not have external and internal CSS doing the same thing, internal will be given priority*/
+/*Try implement all styles inside external CSS*/
 
+body{
+        background-color:  #feffd6; 
+        }
+
+        hr {
+            /*background-color: white;*/
+            border-style: dotted none none none;          /* Browser applies default code. Change border style from the default "inset" */
+            border-color: gray;
+            border-width: 5px;
+            height: 0px;
+            width: 20%;                                   /* Allows element to stay same size when page is viewed on mobile device or computer */
+            
+        }
+
+        img {
+            height: 250px;
+
+        }
+
+        h1 {
+            color: rgb(51, 139, 16);
+        }
+
+        h3{
+            color: rgb(51, 139, 16);
+        }
