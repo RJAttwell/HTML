@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
-
-
 <body>
     <h3>Links</h3>
     <a href="https://www.linkedin.com/in/richard-attwell-710570157/">LinkedIn</a>
@@ -23,10 +21,15 @@
     <hr size="3" noshade>
     <h3>Send Me An Email</h3>
     <br>
-    <form action="mailto:richardjattwell@gmail.com" enctype="text/plain">           <!--Form tag defines what should go into our form--> <!--enctype ensures that the data in our form is plain text-->
-                                                                                    <!--mailto transfers what the user inputs in the form to the email-->
-        <label>Name:</label>                                                        <!--Label allows you to write text that is displayed as a label on form-->                  
-        <input type="text" name="yourName" value="">                                                         <!--Input allows several different kinds of objects for user input-->
+    <!--form code creates a form which is used to collect user input-->
+    <!--Form tag defines what should go into our form-->
+    <!--enctype ensures that the data in our form is plain text-->
+    <!--mailto transfers what the user inputs in the form to the email-->
+    <form action="mailto:richardjattwell@gmail.com" enctype="text/plain">                                                                                      
+        <!--Label allows you to write text that is displayed as a label on form-->
+        <label>Name:</label>  
+        <!--Input allows several different kinds of objects for user input-->
+        <input type="text" name="yourName" value="">                                                         
         <br>
         <br>
         <label>Email:</label>
@@ -34,9 +37,11 @@
         <br>
         <br>
         <label>Message:</label>
+        <!--<textarea> generates a multi-line text input area-->
         <textarea name="messagebox" id="" cols="30" rows="10"></textarea>
         <br>
         <br>
+        <!--Creates a submit button-->
         <input type="submit" name="submitbutton">
 
     </form>
