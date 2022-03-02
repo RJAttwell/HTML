@@ -1,0 +1,91 @@
+HTML Notes:
+
+- HTML = Hypertext Markup Language
+- Simple markup language that tells browsers how to structure web pages
+
+- Tags in HTML aren't case-sensitive
+
+- Anatomy of element is opening tag, content, closing tag.
+
+- Comment in HTML with <!-- ... -->
+
+- When starting new project in VSC, type ! and press tab for boilerplate HTML code. It'll give:
+    - <html> which wraps all content on the page. (the root element).
+    - <head> container for everything on html page that isn't content shown to viewers. Add bootstrap, javascript, CSS, font files here.
+    - <meta> charset attributes set the character set to UTF-8. Page can now handle any textual content it may contain.
+    - <title> sets title for the page which appears in browser tab.
+    - <body> container for all content displayed on page (text, images, videos, etc.)
+
+Nesting: 
+- Placing elements inside of other elements.
+- Ex: <p>It is a <strong>good</strong> morning.</p> 
+
+Attributes:
+- Information about an element that won't appear in the content.
+- Ex: Class attribute gives an identifying name using to target the element in CSS.
+- Other examples are:
+    - id (gives unique identifying name)
+    - target (target = "_blank" displays a link in a new tab)
+    - href (specifies web address for a link)
+    - title
+
+HTML Commands:
+
+- <a></a>: anchor tags which create a link to another page/website.
+- <p>: paragraph of text
+- <br>: line break (forces a new line)
+- <hr>: basic horizontal line
+- <hr noshade size width>: allows you to adjust line width (width), line thickness (size) and to set 3D cut-out (noshade)
+- <img>: shows an image
+- <div>: block element which divides page content into sections and allows you to apply styles
+- <section>:
+
+Text HTML commands:
+
+- <span>: Section of text within other content
+- <i>: makes text italic 
+- <em>: emphasizes on important word/section of words (looks italic tho)
+- <b>: makes text bold
+- <h?>: Heading (? = 1 for largest, 6 for smallest Ex: h2)
+- <u>: underline text
+- <small>: fineprint size text
+- <strike>: Puts a line through text
+- <strong>: makes text bold
+
+Lists:
+
+- <ol>: Ordered List (1, 2, 3)
+- <ul>: Unordered List (bullet points)
+- <li>: List items
+- <dl>: Definition List. Group of items (<dt> tag) and their definitions (<dd> tag) (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+- <ol type="?">: Ordered list type: A, I, 1, i, a
+- <ul type="?">: Unordered list type: circle, square, disc
+
+Forms:
+
+- <form>: Creates new form
+- <action>: URL of the form script
+- <method>: Tells browser how to send data to a server. (get, post)
+- <label>: adds text in front of input box (Ex: <label>Input Name Here:</label>)
+- <input>: makes box that allows user to input information
+    - <type>: Input type. Ex: password, submit, checkbox
+    - maxlength: Maximum Length of data allowed to be put in the input field
+- <select>: Select options from a drop down list
+    - size: Sets number of selectable options
+    - <option>: Adds option item within drop down list
+- <button> adds a button
+- <textarea>: Adds large area for text input
+    - rows: number of rows 
+    - cols: number of columns (characters per rows)
+
+
+Links (can do this in CSS too):
+
+- link = "#???": Link color
+- vlink = "#???": Visited Link Colour 
+
+Special Characters:
+
+- &copy;: Copyright symbol
+- &trade;: Trademark symbol
+- &amp;: and sign 
